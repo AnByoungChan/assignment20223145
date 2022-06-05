@@ -28,6 +28,10 @@
 
 |제목|내용|설명|
 |---|---|---|
+|kill명령어|kill에 대한 설명|대부분 프로세스를 죽이는 것에 사용하는데, 하지만 프로세스에 시그널을 보내 원하는 작업을 하게 하는 명령어이다.kill명령어는 kill [옵션]<pid>로 입력하며 또는 kill [pid]로 입력하면, 프로세스를 죽일 수 있습니다.|
+|kill|kill [pid]|![화면 캡처 2022-06-05 110234](https://user-images.githubusercontent.com/106869861/172036854-2743c31f-1d8c-4759-9411-b2c918bf1df1.png) ![화면 캡처 2022-06-05 110247](https://user-images.githubusercontent.com/106869861/172036872-61a9988b-87ba-4633-a8ac-64a9e874e616.png)|
+|kill시그널|kill -s [signal][pid]| 시그널 전송방법은 kill -s [signal] [pid]로 입력하며, 여기서 -s 명령으로 다른 시그널을 보냅니다. 그리고, signal의 종류는 kill -l을 이용하여 그 목록들을 확인 할 수 있다.|
+|kill|kill -l|시그널 목록 ![화면 캡처 2022-06-05 110432](https://user-images.githubusercontent.com/106869861/172036915-d7c2b6aa-64e9-477f-9520-96e5132e2730.png)|
 
 
 |제목|내용|설명|
